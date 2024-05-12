@@ -6,7 +6,9 @@
     "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier 'src/**/*.{tsx,ts,js}' --write"
+    "format": "prettier 'src/**/*.{tsx,ts,js}' --write",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "@mdi/js": "^7.0.96",
