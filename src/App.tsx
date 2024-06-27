@@ -12,7 +12,7 @@ import FormElements from './pages/Form/FormElements';
 import FormLayout from './pages/Form/FormLayout';
 // import Profile from './pages/Profile';
 import Settings from './pages/Settings';
-import Tables from './pages/Tables';
+// import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
 
@@ -79,7 +79,7 @@ function App() {
               </>
             }
           />
-          <Route
+          {/* <Route
             path="/tables"
             element={
               <>
@@ -87,7 +87,7 @@ function App() {
                 <Tables />
               </>
             }
-          />
+          /> */}
           <Route
             path="/settings"
             element={
